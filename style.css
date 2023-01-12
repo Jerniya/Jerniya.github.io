@@ -1,39 +1,44 @@
-#red{
-    width:100px;
-    height:100px;
-    background-color: red;
-    text-align: center;
-    font-size: 3em;
-}
-
-#yellow{
-    width:100px;
-    height:100px;
-    background-color: yellow;
-    text-align: center;
-    font-size: 3em;
-}
-
-#green{
-    width:100px;
-    height:100px;
-    background-color:green;
-    text-align: center;
-    font-size: 3em;
-}
-
-.wrap{
-    display:flex;
-    margin:300px 600px 0px 600px;
-    position: fixed;
-
-}
-
-#inp{
-    margin:500px 650px 500px 600px;
-    width:9cm;
-    height:40px;
+.page{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(16, 1, 29, 0.814);
+    margin:100px 550px 400px 550px;
+    overflow:visible;
     border-radius:1cm;
-    border-color: blueviolet;
-    position: fixed;
+
+}
+body{
+    background-color: rgb(168, 103, 230);
+}
+
+#inpbill,#inptip{
+    border-radius: 2cm;
+    width: 500px;
+    height:0.8cm;
+    background-color: rgb(55, 4, 104);
+    border-color:  rgb(55, 4, 104);
+    color: aliceblue;
+    font-size: large;
+}
+#prev,#next{
+height: 0.5cm; 
+  border-radius:35cm;
+  background-color:  rgb(168, 103, 230);
+  border-style: dotted;
+
+}
+
+#buttoninp{
+    width: 35px;
+    border-radius: 4cm;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(55, 4, 104);
+    border-color:  rgb(55, 4, 104);
+    color: aliceblue;
+}
+
+#toright{
+   margin: 200px 0px 0px 300px;
+    
 }
