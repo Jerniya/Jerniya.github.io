@@ -1,172 +1,40 @@
 <html>
-    <head ><script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <head>
         <title>
-            myweb
+            tipcalculator
         </title>
-          <body>
-              <h1>MYWEB</h1>
-              <br>
-         
-            <br>
-            <div class="cl" >
-                    <div >
-                        <button>button1</button>
-                    </div>
-                    <div>
-                        <button>button2</button>
-                    </div>
-                    <div>
-                        <button>button3</button>
-                    </div>
-                    <div>
-                        <button>button4</button>
-                    </div>
-
+        <link rel="stylesheet" href="style.css">
+        <script src="wrk.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <div class="bill">
+                <h3 style="color: aliceblue;padding-left: 18px;padding-top: 10px;">BILL TOTAL</h3>
+                <input type="textfield" id="inpbill" placeholder="$0.00">
             </div>
-            <a href="youtube.com">youtube</a>
-           <br>
-           <ol id="f">items
-         <li>fruits</li>
-         <li > veggies</li>
-            <li > flowers</li>
-                <li>  curtains</li></ol>
-          <br>  <div>
-             <select name="dob" id="do" >
-                 <option value="">
-                     select 
-                 </option>
-                 <option value="1" onclick="execute();">
-                    1
-                </option>
-                <option value="2">
-                    2
-                </option>
-                <option value="3">
-                    3
-                </option>
-             </select>
+            <div class="tip">
+                <h3 style="color: aliceblue;padding-left: 18px;padding-top: 10px;">TIP</h3>
+                <input type="textfield" id="inptip" placeholder="%10">
+            </div> 
+
+           
+
+                <div>
+                <h3 style="color: aliceblue;padding-left: 18px;padding-top: 10px;">NO OF PEOPLE</h3>
+               <button id="prev" onclick="prev();"></button>
+              <input type="text field" value='1' id="buttoninp">
+               <button id="next" onclick="next();"></button>
             </div>
-            <figure> <img src="C:\Users\JERNIA\Downloads\jerniya.jpg" title="screenshot" width="250"height="250">
-            <figcaption>ssfromlap</figcaption></figure>
-       <br>
-       <a  href="../../Downloads/cuckoo-37060.mp3"  target="_blank">new_webpage></a>
-    <br>
-   
-   <br><a href="C:\Users\JERNIA\Downloads\jerniya.jpg"target="_blank"><img src="C:\Users\JERNIA\Downloads\jerniya.jpg" width="80" height="80" ></a>
-
-<br>
-
-
-<span></span>
-<table border="3" ID="T">
-
-<tr>
-    <th rowspan="2">DAYS</th>
-    <th colspan="9">TIME</th>
-   
-</tr>
-<tr> <th rowspan="1"></th>
-    <td>9-10</td>
-    <td>10-11</td>
-    <th rowspan="6">BREAK</th>
-    <td>11-12</td>
-    <td>12-1</td>
-    <th rowspan="6">LUNCH</th>
-    <td>2-3</td>
-    <td>3-4</td></tr>
-<tr> <th>MONDAY</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    </tr>
-<tr> <th>TUESDAY</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    </tr>
-<tr> <th>WEDNESDAY</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    </tr>
-<tr> <th>THURSDAY</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    </tr>
-<tr > <th>FRIDAY</th>
-    <td CELL SPACING="5"></td>
-    <td CELL SPACING="5"></td>
-    <td CELL SPACING="5"></td>
-    <td CELL SPACING="5"></td>
-    <td CELL SPACING="5"></td>
-    <td CELL SPACING="5"></td>
-    <td CELL SPACING="5"></td>
-    </tr>
-
-</table>
-<div id="pp">
-<div id="p1"><p>OOPS Concepts in Java
-    By Java Guides
-    Learn OOPS concepts in Java with real time examples 
-    and source code examples.
-    Object Oriented Programming Concepts are very important. Without having an idea about 
-    OOPS concepts, you will not be able to design systems in the object-oriented programming 
-    model. It simplifies software development and maintenance.
-    The core OOPs concepts:
-    1. Object
-    2. Class
-    3. Abstraction
-    4. Encapsulation
-    5. Inheritance
-    6. Polymorphism
-    Let's discuss above each OOPS concepts with a real-world example.
-    1. Object
-    The Object is the real-time entity having some state and behavior. In Java, Object is 
-    an instance of the class having the instance variables like the state of the object and 
-    the methods as the behavior of the object. The object of a class can be created by 
-    using the new keyword in Java Programming language.
-    A class is a template or blueprint from which objects are created. So, an object is the 
-    instance(result) of a class.
-    I found various Object Definitions:
-    1. An object is a real-world entity.
-    2. An object is a runtime entity.
-    3. The object is an entity which has state and behavior.
-    4. The object is an instance of a class.</p></div>
-
-<div id="p2"><p> Let's discuss above each OOPS concepts with a real-world example.
-    1. Object
-    The Object is the real-time entity having some state and behavior. In Java, Object is 
-    an instance of the class having the instance variables like the state of the object and 
-    the methods as the behavior of the object. The object of a class can be created by 
-    using the new keyword in Java Programming language.
-    A class is a template or blueprint from which objects are created. So, an object is the 
-    instance(result) of a class.
-    I found various Object Definitions:
-    1. An object is a real-world entity.
-    2. An object is a runtime entity.
-    3. The object is an entity which has state and behavior.
-    4. The object is an instance of a class</p></div></div>
- 
-</body>
-
-
-</head>
+            <div id="toright">
+           <div>
+                <button style=" background-color: rgba(16, 1, 29, 0.814);
+                border-color: rgba(16, 1, 29, 0.814); color: aliceblue;border-radius: 1cm;" onclick="execute();">TOTAL PER PERSON</button>
+               
+            </div>
+            <input type="text field" placeholder="$0.00" style=" background-color: rgba(16, 1, 29, 0.814);
+            border-color: rgba(16, 1, 29, 0.814);border-radius: 1cm; width:4cm;height:1cm;text-align: center;  color: aliceblue;
+    font-size: large;" id="res">
+        </div>
+        </div>
+    </body>
 </html>
