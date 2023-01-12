@@ -1,0 +1,39 @@
+#red{
+    width:100px;
+    height:100px;
+    background-color: red;
+    text-align: center;
+    font-size: 3em;
+}
+
+#yellow{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 3em;
+}
+
+#green{
+    width:100px;
+    height:100px;
+    background-color:green;
+    text-align: center;
+    font-size: 3em;
+}
+
+.wrap{
+    display:flex;
+    margin:300px 600px 0px 600px;
+    position: fixed;
+
+}
+
+#inp{
+    margin:500px 650px 500px 600px;
+    width:9cm;
+    height:40px;
+    border-radius:1cm;
+    border-color: blueviolet;
+    position: fixed;
+}
